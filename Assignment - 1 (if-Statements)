@@ -1,0 +1,6 @@
+name = {'Joseph':'@12'}
+user_name = input('You need to enter your name and the program should recognize you : ')
+if user_name in name :
+  print(f'Hello, {user_name}! The password is : {name[user_name]}' )
+else:
+  print(f'Hello, {user_name}! See you later.')
